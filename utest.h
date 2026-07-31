@@ -10,7 +10,6 @@ static int tests_passed = 0;
     tests_run++;                                                               \
     if (condition) {                                                           \
       tests_passed++;                                                          \
-      printf("  PASS: %s\n", msg);                                             \
     } else {                                                                   \
       printf("  FAIL: %s (line %d)\n", msg, __LINE__);                         \
     }                                                                          \
